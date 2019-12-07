@@ -39,6 +39,14 @@ header h2 {
   right: 0;
   bottom: 0; }
 
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
 /*.tab-content{
     border: 1px solid #DDD;
     border-top: none;

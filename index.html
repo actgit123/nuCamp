@@ -24,8 +24,7 @@
 </head>
 
 <body>
-
-    <header class="jumbotgitron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
@@ -36,8 +35,8 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div role="dialog" class="col-md-4 col-xl-2 mt-4">
-                    <a role="button" class="btn btn-lg btn-info" data-toggle="modal"
-                        data-target="#reserveModal">Reserve Campsite</a>
+                    <a role="button" class="btn btn-lg btn-info" 
+                      id="reserveButton">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -46,8 +45,8 @@
     <div id="reserveModal" role="dialog" class="modal fade">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header bg-info text-white">
-                    <h3 class="modal-title bg-white text-info">Reserve Campsites</h3>
+                <div class="modal-header">
+                    <h3 class="modal-title">Reserve Campsites</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -118,7 +117,7 @@
                                 class="fa fa-adress-card fa-lg"></i>Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a  id="loginButton">
                         <i class="fa fa-sign-in"></i> Login</a>
                 </span>
             </div>
